@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title>
+    Задание 5
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <form id="form">
+        <div class ="person">
+                <select id="person" required>
+                    <option value="">Тип плательщика</option>
+                    <option id="person-option-f" value="Физическое лицо">Физическое лицо</option>
+                    <option id="person-option-u" value="Юридическое лицо">Юридическое лицо</option>
+                </select>
+                <select id="u-person-form-selection">
+                    <option value="">Форма ЮЛ</option>
+                    <option id="u-person-form-ooo" value="ООО">ООО</option>
+                    <option id="u-person-form-oao" value="ОАО">ОАО</option>
+                    <option id="u-person-form-zao" value="ЗАО">ЗАО</option>
+                    <option id="u-person-form-ip" value="ИП">ИП</option>
+                </select>
+                <div id="checkbox" class="checkbox">
+                <input type="checkbox" id="simple-tax-checkbox"><label id="checkboxtext">Упрощенное налогооблажение</label>
+                </div>
+        </div>
+        <div>
+            <div>
+                <input type="text" id="inputname" class="textfield" placeholder="Имя" required>
+                <input type="text" id="inputsurname" class="textfield" placeholder="Фамилия" required>
+            </div>
+            <div>
+                <input type="text" id="tin" class="textfield" placeholder="ИНН" required>
+                <input type="text" id="telephone" class="textfield" placeholder="Контактный телефон" required>
+            </div>
+        </div>
+        <div>
+            <input type="text" id="sum" class="textfield"  placeholder="Сумма платежа" required>
+            <input type="text" id="tax" class="textfield" value="НДС: " disabled>
+            <input type="text" id="calculation" class="textfield"  value="Итог" disabled>
+        </div>
+        <div id="errordiv">
+        <div id="errortelephonenumberinput" class="error"></div>
+        <div id="errortininput" class="error"></div>
+        <div id="errorsuminput" class="error"></div>
+        <div id="errorpersonselect" class="error"></div>
+        <div id="errornameinput" class="error"></div>
+        <div id="errorsurnameinput" class="error"></div>
+        </div>
+        <button type="submit" id="submitbutton">Отправить</button>
+    </form> 
+    <script src="asdf.js" type="application/javascript"></script>
+</body>
+</html>

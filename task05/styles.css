@@ -1,0 +1,183 @@
+#submitbutton
+{
+    border: 0;
+    margin-left:65px;
+    width: 100px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 3px;
+    zoom: 1.5;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #5181b8;  
+    color: #fff;
+    box-sizing: border-box;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+#form
+{
+    width:400px;
+    margin: 100px 0 20px;
+    margin-left:550px;
+    padding: 25px;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    font-size: 13px;
+    text-align: left;
+    direction: ltr;
+    line-height: 1.154;
+    font-weight: 400;
+}
+
+.textfield
+{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left:20px;
+    height:30px;
+    padding-left:10px;
+    width: 288px;
+    color: #000;
+    border: 1px solid #d3d9de;
+    background: #fff;
+    text-rendering: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 15px Arial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+#person
+{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left:20px;
+    height:30px;
+    padding-left:10px;
+    width: 288px;
+    color: #000;
+    border: 1px solid #d3d9de;
+    background: #fff;
+    text-rendering: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: pointer;
+    font: 400 15px Arial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+#u-person-form-selection
+{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left:20px;
+    height:30px;
+    padding-left:10px;
+    width: 288px;
+    color: #000;
+    border: 1px solid #d3d9de;
+    background: #fff;
+    text-rendering: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: pointer;
+    font: 400 15px Arial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+.checkbox
+{
+    margin: 0;
+    margin-left:20px;
+    height:30px;
+    padding-left:10px;
+    height:30px;
+    width: 288px;
+}
+.error
+{
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left:20px;
+    height:20px;
+    padding-left:10px;
+    width: 288px;
+    color: #000;
+    border: 1px solid #d3d9de;
+    background: rgba(233, 129, 129, 0.61);
+    text-rendering: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    font: 400 15px Arial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+#checkboxtext
+{
+    margin:0;
+    padding-left:10px;
+    color: #000;
+    background: #fff;
+    text-rendering: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    font: 400 17px Arial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+#simple-tax-checkbox
+{
+    transform: scale(1.5);
+}
+#tax
+{
+    cursor:not-allowed;
+    color: rgb(122, 111, 111);
+    width:100px;
+    background: rgb(196, 194, 194);
+}
+#calculation
+{
+    cursor:not-allowed;
+    margin-left:0px;
+    color: rgb(122, 111, 111);
+    width:184px;
+    background: rgb(196, 194, 194);
+}
